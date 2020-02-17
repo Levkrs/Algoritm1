@@ -7,8 +7,8 @@ print("Введите трехзначное целое число: ")
 x = int(input())
 
 x1 = abs(x % 10)
-x2 = (abs(x%100)-x1)/10
-x3 = (abs(x%1000) - abs(x%100))/100
+x2 = (abs(x % 100) - x1) / 10
+x3 = (abs(x % 1000) - abs(x % 100)) / 100
 resSumm = x1 + x2 + x3
 resSub = (x1 * x2) * x3
 
@@ -18,4 +18,3 @@ print(x3)
 
 print("Результат суммы:", int(resSumm))
 print("Результат умножения: ", int(resSub))
-
